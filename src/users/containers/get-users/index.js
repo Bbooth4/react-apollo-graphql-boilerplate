@@ -11,9 +11,9 @@ const GET_USERS = gql`
   }
 `;
 
-const getUsers = () => {
+const getUsers = async () => {
   try {
-    const res = useQuery(GET_USERS);
+    const res = await useQuery(GET_USERS);
     console.log(res);
     return res;
   } catch(err) {

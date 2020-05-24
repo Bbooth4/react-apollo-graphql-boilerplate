@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
+    "@babel/runtime": "^7.9.6",
     "apollo-boost": "^0.4.9",
     "apollo-client": "^2.6.8",
     "apollo-link": "^1.2.14",
@@ -38,6 +39,7 @@
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "html-webpack-plugin": "^4.2.1"
   }
